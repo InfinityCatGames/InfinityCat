@@ -1,0 +1,88 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: #181818;
+	color: white;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	display: flex;
+	width: 80%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo-container,
+.nav-links,
+.fill {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+}
+.logo-container img {
+	height: 10vh;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+	margin-top: 35px;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	font-size: 18px;
+	text-decoration: none;
+}
+.fill {
+	flex: 1;
+}
+
+.about-me {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.projects {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.links {
+	display: inline-table;
+	width: 100%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.link {
+	text-decoration: none;
+	list-style: none;
+}
