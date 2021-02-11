@@ -1,2 +1,0 @@
-# InfinityCat
-Website
